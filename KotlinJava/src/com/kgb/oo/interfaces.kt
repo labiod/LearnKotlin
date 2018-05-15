@@ -5,7 +5,9 @@ package com.kgb.oo
  * Date: 5/15/18.
  */
 interface Drivable {
-    fun drive()
+    fun drive() {
+        println("driving (interface)")
+    }
 }
 
 class Bicycle : Drivable {
