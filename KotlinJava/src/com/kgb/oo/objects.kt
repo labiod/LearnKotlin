@@ -2,6 +2,11 @@ package com.kgb.oo
 
 import java.awt.event.MouseAdapter
 import java.awt.event.MouseEvent
+import com.kgb.oo.House.Companion.getNormalHouse as createHouse
+import com.kgb.oo.House.Companion.getLuxuryHouse
+
+import com.kgb.basic.PI
+import com.kgb.basic.getExternalInput
 
 /**
  * @author Krzysztof Betlej <labiod@wp.pl>
@@ -23,4 +28,6 @@ object DefaultClickListener : MouseAdapter() {
 fun main(args: Array<String>) {
     CountryFactory.a
     CountryFactory.createCountry()
+    createHouse()
+    getLuxuryHouse()
 }
