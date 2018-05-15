@@ -12,7 +12,7 @@ abstract class Vehicle(open val brand: String = "") {
 }
 
 class Sedan(override var brand: String = "BRAND") : Vehicle(), Drivable {
-    
+
     override fun honk() {
         println("Mððp")
     }
