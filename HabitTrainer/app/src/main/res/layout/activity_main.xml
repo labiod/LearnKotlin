@@ -23,13 +23,12 @@
                 android:layout_marginRight="16dp"
                 android:layout_width="32dp"
                 android:layout_height="32dp"
-                android:src="@drawable/water"/>
+                />
             <TextView
                 android:id="@+id/tv_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_toRightOf="@id/iv_icon"
-                android:text="Drink water"
                 android:textSize="30sp"
                 android:layout_alignParentTop="true"
                 />
@@ -40,7 +39,6 @@
                 android:layout_height="wrap_content"
                 android:layout_toRightOf="@id/iv_icon"
                 android:layout_below="@id/tv_title"
-                android:text=""
                 />
         </RelativeLayout>
 
