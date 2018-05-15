@@ -8,17 +8,17 @@ package com.kgb.oo
 open class Base
 class Child : Base()
 
-open class Shape(val name: String) {
+open class Shape1(val name: String) {
 
     open fun area() = 0.0
 }
 
-class Circle(name: String, val radius: Double) : Shape(name) {
+class Circle1(name: String, val radius: Double) : Shape1(name) {
     override fun area() = Math.PI * Math.pow(radius, 2.0)
 }
 
 fun main(args: Array<String>) {
-    val smallCircle = Circle("small circle", 2.0)
+    val smallCircle = Circle1("small circle", 2.0)
 
     println(smallCircle.name)
     println(smallCircle.radius)
