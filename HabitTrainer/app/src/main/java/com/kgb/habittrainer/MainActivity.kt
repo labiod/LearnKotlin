@@ -10,8 +10,9 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        tv_description.text = "A refreshing glass of watter gets you hydrated"
-        tv_title.text = "Drink water"
+
         iv_icon.setImageResource(R.drawable.water)
+        tv_title.text = getString(R.string.drink_water)
+        tv_description.text = getString(R.string.drink_water_desc)
     }
 }
