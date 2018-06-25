@@ -3,4 +3,10 @@
     <string name="habit_icon">Habit icon</string>
     <string name="drink_water_desc">A refreshing glass of watter gets you hydrated</string>
     <string name="drink_water">Drink water</string>
+    <string name="begin_habit">Begin new habit…</string>
+    <string name="choose_image">Choose image…</string>
+    <string name="save_text">Save</string>
+    <string name="image_preview_desc">Selected image</string>
+    <string name="eat_an_apple">Eat an apple</string>
+    <string name="apple_descr">An Apple a day keeps the doctro away</string>
 </resources>

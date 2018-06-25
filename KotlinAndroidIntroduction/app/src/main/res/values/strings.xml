@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">KotlinAndroidIntroduction</string>
+    <string name="button_name">Show name</string>
+    <string name="title">Enter your name</string>
+</resources>

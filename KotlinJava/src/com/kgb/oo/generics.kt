@@ -22,6 +22,10 @@ class TimeSeries<T> {
     fun getLatest(): T {
         return date2Data.values.last()
     }
+
+    fun getKeyLatest(): Date {
+        return date2Data.keys.last()
+    }
 }
 
 fun <T> timelineOf(vararg elements: T) : TimeSeries<T> {
@@ -36,6 +40,7 @@ fun main(args: Array<String>) {
     val timeSeries: TimeSeries<Int> = TimeSeries()
     timeSeries.add(2)
     timeSeries.getLatest()
+    println(timeSeries.getKeyLatest())
 
     val timeSeries2: TimeSeries<Int> = timelineOf(1, 2, 3)
 
