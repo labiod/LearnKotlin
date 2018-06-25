@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ImageFilterApp</string>
+    <string name="tap_me_text">Tap Me!</string>
+</resources>

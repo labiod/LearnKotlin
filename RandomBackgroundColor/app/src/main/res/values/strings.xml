@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RandomBackgroundColor</string>
+    <string name="tap_text">Tap!</string>
+</resources>
